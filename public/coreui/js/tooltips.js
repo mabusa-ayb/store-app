@@ -1,0 +1,1 @@
+document.querySelectorAll('[data-toggle="tooltip"]').forEach(function(element){new coreui.Tooltip(element);});

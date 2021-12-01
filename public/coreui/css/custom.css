@@ -1,0 +1,36 @@
+.zoom {
+    transition: transform .2s;
+    width: 35px;
+    height: 35px;
+    margin: 0 auto;
+}
+
+.zoom:hover {
+    -ms-transform: scale(2.5); /* IE 9 */
+    -webkit-transform: scale(2.5); /* Safari 3-8 */
+    transform: scale(2.5);
+}
+
+.c-sidebar .c-sidebar-nav-link.c-active, .c-sidebar .c-active.c-sidebar-nav-dropdown-toggle {
+    color: #db6161;
+    background: rgba(255, 255, 255, 0.05);
+}
+
+.c-sidebar .c-sidebar-nav-dropdown.c-show .c-sidebar-nav-link, .c-sidebar .c-sidebar-nav-dropdown.c-show .c-sidebar-nav-dropdown-toggle {
+    color: #db6161;
+}
+
+.custom-select-sm {
+    padding-left: .5rem;
+    padding-right: 1.2em;
+}
+
+.bg-red{
+    color: #FF0D06;
+}
+
+table.dataTable tbody th, table.dataTable tbody td {
+    padding: 8px 10px;
+    font-size: 13.5px;
+}
+
